@@ -1,0 +1,29 @@
+{
+  "name": "@nitedani/vercel-edge-conditions",
+  "version": "1.0.2",
+  "type": "module",
+  "exports": {
+    ".": {
+      "edge-light": "./lib/edge-light.js",
+      "edge": "./lib/edge.js",
+      "worker": "./lib/worker.js",
+      "browser": "./lib/browser.js",
+      "import": "./lib/import.js",
+      "module": "./lib/module.js",
+      "node": "./lib/node.js"
+    },
+    "./__internal": {
+      "edge-light": "./lib/internal/edge-light.js",
+      "edge": "./lib/internal/edge.js",
+      "worker": "./lib/internal/worker.js",
+      "browser": "./lib/internal/browser.js",
+      "import": "./lib/internal/import.js",
+      "module": "./lib/internal/module.js",
+      "node": "./lib/internal/node.js"
+    },
+    "./internal-importer": "./lib/internal-importer.js"
+  },
+  "files": [
+    "lib"
+  ]
+}

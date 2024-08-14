@@ -1,0 +1,9 @@
+{
+  "name": "vercel-edge-conditions-test",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@nitedani/vercel-edge-conditions": "1.0.2"
+  }
+}
